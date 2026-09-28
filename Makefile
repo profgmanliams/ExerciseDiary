@@ -39,3 +39,6 @@ clean:
 	docker rmi -f $(USR_NAME)/$(PKG_NAME)
 
 dev: docker-build docker-run
+
+test:
+	go test ./...
