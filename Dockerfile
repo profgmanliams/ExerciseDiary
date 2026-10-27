@@ -1,3 +1,4 @@
+LABEL org.opencontainers.image.source="https://github.com/profgmanliams/ExerciseDiary"
 FROM golang:alpine AS builder
 
 RUN apk add build-base
